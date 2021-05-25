@@ -2,9 +2,9 @@
 
 ## Table of Content
 
-    ### 1. Countdown Timer
+    1. Countdown Timer
 
-    ### 2. RandomGame
+    2. RandomGame
 
 ## How to Run the Exercise
 
