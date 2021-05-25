@@ -16,15 +16,15 @@ Output:
 */
 
 function countdown(num) {
-    let id = 0;
+    let intervalId = 0;
     let value = num - 1;
     let displayValue = "";
-    id = setInterval(() => {
+    intervalId = setInterval(() => {
         if (value) {
             displayValue = value;
         } else {
             displayValue = '"DONE!"'
-            clearInterval(id);
+            clearInterval(intervalId);
         }
         console.log(displayValue);
         value--;
@@ -32,5 +32,4 @@ function countdown(num) {
 }
 
 countdown(4);
-
 
