@@ -60,4 +60,4 @@ for (const li of lis) {
 
 // 12. Remove the div with a class of footer
 const div = document.querySelector(".footer");
-// div.remove()
+div.remove();
