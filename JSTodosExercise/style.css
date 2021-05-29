@@ -1,0 +1,25 @@
+body {
+    display: flex;
+    justify-content: center; 
+    align-items: top;
+    height: 100vh;
+    margin: auto;
+    background-color: lightblue;
+}
+#todo-list {
+    list-style-type: none;
+    padding-left: 0;
+}
+input[type="button"] {
+    margin-left: 5rem;
+    float: right;
+}
+input {
+    margin-right: 1rem;
+}
+li {
+    line-height: 2rem;
+}
+.done {
+    text-decoration-line: line-through;
+}
