@@ -1,0 +1,25 @@
+1. man - provide infomation about command
+    scroll with "h" and "return"
+    get out with "q"
+
+2. "-l" use a long listing format
+    "-a" show hidden files
+
+3. Jump between word Option/Alt + left/right arrow
+
+4. command/ctl + e
+
+5. command/ctl + about
+
+6. command/ctl + w
+
+7. Shell process command and returns output while Terminal a program that run shell.
+
+8. Absolute path contains root and complete file path.
+
+9. Relative path is defind relative to specific location and does not contain root and complete file path.
+
+10. Flag modifies the operation of a command
+
+11. r - remove directory and contents recussively 
+    f - force, ignore nonexistence file and argument
