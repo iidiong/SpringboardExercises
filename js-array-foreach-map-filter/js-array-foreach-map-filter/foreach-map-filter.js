@@ -6,9 +6,10 @@ Examples:
     doubleValues([5,1,2,3,10]) // [10,2,4,6,20]
 
 */
-function doubleValues(arr){
+function doubleValueps(arr){
     return arr.map( val => val * 2);
 }
+console.log(doubleValues([5,1,2,3,10]))
 
 /*
 Write a function called onlyEvenValues which accepts an array and returns a new array with only the even values in the array passed to the function
