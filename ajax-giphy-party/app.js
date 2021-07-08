@@ -12,6 +12,7 @@ form.addEventListener("click", (event) => {
     console.log(event.target.className);
     if (event.target.className === "submitBtn" && searchField.value !== "") {
         getImage(searchField.value);
+        searchField.value = "";
     }
     else if (event.target.className == "removeBtn") {
         const images = document.querySelectorAll("img");
@@ -19,6 +20,7 @@ form.addEventListener("click", (event) => {
             image.remove();
         }
     }
+   
 });
 
 async function getImage(searchTerm) {

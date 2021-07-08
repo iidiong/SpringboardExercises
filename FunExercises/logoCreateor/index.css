@@ -1,6 +1,16 @@
 body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+    display: grid;
+    grid-template-rows: 2fr 1fr;
+    height: 80vh;
+}
+.mainContainer {
+    margin: auto;
+}
+.displayContainer {
+    margin: auto;
+}
+.button {
+    padding: 5px 15px;
+    background-color: rgb(4, 92, 30);
+    color: white;
 }

@@ -11,31 +11,35 @@
 
 <body>
 
-    <form action="" id="form">
-        <h1>Logo Creator</h1>
-        <p>
-            <label for="brand name"> Enter Brand Name
-                <input type="text" placeholder="Brand Name" name="brand name">
-            </label>
-        </p>
-        <p>
-            <label for="brand color">Select Brand Color
-                <input type="color" name="brand color" value="#0059ff">
-            </label>
-        </p>
-        <p>
-            <label for="brand font">Select Brand Fontsize
-                <input type="range" name="font size" min="10" max="200">
-            </label>
-        </p>
-        <p>
-            <label for="submit">
-                <input type="submit" name="submit">
-            </label>
-        </p>
+   <div class="mainContainer">
+        <form action="" id="form">
+            <h1>Logo Creator</h1>
+            <p>
+                <label for="brand name"> Enter Brand Name
+                    <input type="text" placeholder="Brand Name" name="brand name">
+                </label>
+            </p>
+            <p>
+                <label for="brand color">Select Brand Color
+                    <input type="color" name="brand color" value="#0059ff">
+                </label>
+            </p>
+            <p>
+                <label for="brand font">Select Brand Fontsize
+                    <input type="range" name="font size" min="10" max="200">
+                </label>
+            </p>
+            <p>
+                <label for="submit">
+                    <input type="submit" name="submit" class="button">
+                </label>
+            </p>
+        </form>
+   </div>
+    <div class="displayContainer">
         <section id="result">
         </section>
-    </form>
+    </div>
 <script src="./index.js"></script>
 </body>
 

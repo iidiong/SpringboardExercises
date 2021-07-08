@@ -17,5 +17,6 @@ input {
   font-size: 2rem;
   background-color: blue;
   margin: 20px;
+  border-radius: 5px;
 
 }
