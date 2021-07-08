@@ -1,16 +1,17 @@
 body {
-    display: grid;
-    grid-template-rows: 2fr 1fr;
-    height: 80vh;
+  display: grid;
+  grid-template-rows: 2fr 1fr;
+  height: 80vh;
 }
 .mainContainer {
-    margin: auto;
+  margin: auto;
 }
 .displayContainer {
-    margin: auto;
+  margin: auto;
 }
 .button {
-    padding: 5px 15px;
-    background-color: rgb(4, 92, 30);
-    color: white;
+  padding: 5px 15px;
+  background-color: black;
+  color: white;
+  font-weight: 700;
 }
