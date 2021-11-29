@@ -64,16 +64,17 @@ let cardsToReset = [];
 
 function handleCardClick(event) {
   allCardsDisplayed = document.querySelectorAll("#game div");
-  console.log("you just clicked", event.toElement);
+  console.log("you just clicked", event.srcElement);
 
-  cardsToReset.push([...allCardsDisplayed].find((element) => element === event.toElement));
+  cardsToReset.push([...allCardsDisplayed].find((element) => element === event.srcElement));
   cardsSelected.push(event.target.className);
+
 
   // Limit card selection to two
   if (cardsSelected.length <= 2) {
 
     // Set background color of card user clicked
-    event.toElement.style.backgroundColor = event.target.className;
+    event.target.style.backgroundColor = event.target.className;
 
     if (cardsSelected.length === 2 && cardsSelected[0] === cardsSelected[1]) {
       for (let i = 0; i < cardsSelected.length; i++) {
@@ -109,4 +110,5 @@ function startNewGame() {
 }
 
 // when the DOM loads
+console.log(shuffledColors);
 createDivsForColors(shuffledColors);
